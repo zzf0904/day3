@@ -1,0 +1,1 @@
+document.documentElement.style.fontSize = window.innerWidth / 750 * 100 + 'px';

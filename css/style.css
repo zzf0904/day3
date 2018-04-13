@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html,
+body,
+.wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    font-size: 0.32rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer {
+    width: 100%;
+    height: 0.8rem;
+    background: pink;
+}
+
+.header {
+    display: flex;
+    line-height: 0.8rem;
+}
+
+.h-left {
+    width: 90%;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.h-left li {
+    flex-shrink: 0;
+    margin: 0 0.2rem;
+}
+
+.active {
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+
+.h-right {
+    flex: 1;
+    text-align: center;
+}
+
+.section {
+    width: 100%;
+    flex: 1;
+    overflow-y: scroll;
+}
